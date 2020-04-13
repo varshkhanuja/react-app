@@ -3,7 +3,7 @@ import Aux from '../../hoc/Aux';
 
 const Layout = (props) => (
     <Aux>
-        <div> Toolbar, SideDrawer, Backdrop</div>
+        {/* <div> Toolbar, SideDrawer, Backdrop</div> */}
         <main>
             {props.children}
         </main>
